@@ -1,0 +1,27 @@
+.{
+    .name = .gnmtrace,
+    .version = "1.0.0",
+    .fingerprint = 0x27967f4bf5b1c5f2,
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .lz4u = .{
+            .url = "git+https://github.com/lateleite/lz4u.git#1e32cd5c285655542430e50a98a8167e472c354b",
+            .hash = "lz4u-0.1.1-rs956haS5gGfD6uIGhgQ1JMs3LqoUWgmlrhAGTztSnLP",
+        },
+        .freegnm = .{
+            .url = "git+https://github.com/lateleite/freegnm.git#d0fe672b7f013f2bcbcc70ba234fbbd29ac0f32a",
+            .hash = "freegnm-0.1.0-zGkH591YIwAIl8eTD7NxzmcDqGHyMCAO3Nj4367B6QXG",
+        },
+        .open_orbis_zig = .{
+            .url = "git+https://github.com/lateleite/open-orbis-zig.git#865e17371a3ca1d9101a5025bf92efb006e6aeb8",
+            .hash = "open_orbis_zig-0.1.0-OC-BH55JDwDiUuoTjud22X1sKeN4n3VGVOcc076dFTSU",
+        },
+    },
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+    },
+}
